@@ -4,7 +4,7 @@ public class NumberUtilsExample {
 	
 	public static void main(String[] args) {
 		System.out.println(
-			NumberUtils.realNumberToCardinal(-21));
+			NumberUtils.numberToCardinal(-21));
 		// output => دو میلیون  و یک هزار  و یک 
 		
 		System.out.println(

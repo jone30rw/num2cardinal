@@ -38,7 +38,11 @@ public class NumberUtils {
 		return cardinal.trim();
 	}
 
-	public static String realNumberToCardinal(long number) {
+	public static String numberToCardinal(long number) {
+		return realNumberToCardinal(number);
+	}
+	
+	private static String realNumberToCardinal(long number) {
 		// some constant variables used to store 
 		// string literal for numbers
 		final String   SP = "و ";
